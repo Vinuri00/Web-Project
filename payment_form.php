@@ -6,7 +6,7 @@
     <title> Payment Form </title>
     <link rel="stylesheet" href="css/payment.css">
 
-    <style>
+    <!-- <style>
         .paybut {
             background-color: #04fd2581;
             border: none;
@@ -32,7 +32,7 @@
             background-color: #C5B358;
             color: black;
         }
-    </style>
+    </style> -->
 
     <script language="JavaScript" type="text/javascript">
         function validatetext() {
