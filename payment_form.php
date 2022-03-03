@@ -6,6 +6,7 @@
     <title> Payment Form </title>
     <link rel="stylesheet" href="css/payment.css">
 
+    <!-- internal css for Pay Now button  -->
     <style>
         .paybut {
             background-color: #04fd2581;
