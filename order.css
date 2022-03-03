@@ -1,0 +1,27 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url("398e658f-add3-428f-a558-fd28fbb99cd4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.font {
+    font-weight: bold;
+    color: aliceblue;
+    opacity: 1;
+}
+#frame
+{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+
