@@ -1,3 +1,4 @@
+<!--Addding Internal PHP code -->
 <?php
 
 include "dbconn.php";
