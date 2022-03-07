@@ -24,10 +24,10 @@ $result=mysqli_query($conn, $query);
           <table class="table table-dark table-bordered">
             <thead>
               <tr> 
-                <th>Name on Card</th>
-                <th>CVV</th>
-                <th>Card Number</th>
-                <th>Expire Date</th>
+                <td><b>Name on Card</b></td>
+                <td><b>CVV</b></td>
+                <td><b>Card Number</b></td>
+                <td><b>Expire Date</b></td>
               </tr>
             </thead>
 
