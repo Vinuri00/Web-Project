@@ -21,7 +21,7 @@ $result=mysqli_query($conn, $query);
 
         <h1 class="text-center">Confirmation of your Payment<h1>
           <br>
-          <table class="table table-dark table-bordered">
+          <table class="table table-dark table-bordered" width="900" height="500">
             <thead>
               <tr> 
                 <td><b>Name on Card</b></td>
