@@ -14,7 +14,7 @@
 <h1 class="ord">
     Order Now
 </h1>
-<form>
+<form name="regform" method="POST" action="regprocess.php">
 <table width="400" height="400">
 
     <tr>
