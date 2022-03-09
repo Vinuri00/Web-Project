@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div style="padding-top: 70px;">
+    <div style="padding-top: 30px;">
         <center>
             <form name="myform" method="post" action="regprocess.php">
                 <div id="frame">
@@ -17,40 +17,43 @@
                         --------Register--------
                     </h1>
                     <p>Create your account . It's free and only takes a minute . </p>
-                    <tr>
-                        <td><input type="text" name="fname" placeholder="First Name" required></td>
-                    </tr>
-                    <br><br>
-                    <tr>
-                        <td><input type="text" name="lname" placeholder="Last Name" required></td>
-                    </tr>
-                    <br><br>
-                    <tr>
-                        <td><input type="text" name="email" placeholder="Email" required></td>
-                    </tr>
-                    <br><br>
-                    <tr>
-                        <td><input type="text" name="uname" placeholder="User Name" required></td>
-                    </tr>
-                    <br><br>
-                    <tr>
-                        <td><input type="password" name="pword" placeholder="Password" required></td>
-                    </tr>
-                    <br><br>
-                    <tr>
-                        <td><input type="password" name="confirmpword" placeholder="Confirm Password" required></td>
-                    </tr>
 
-                    <br><br>
-                    <input type="radio" name="g" value="j">I accept the <b> Terms of Use </b> & <b>Privacy Policy</b> .
+                    <!-- Linked the php process for the register form -->
+                    <form name="myform" method="post" action="accprocess.php">
 
-                    <br><br>
-                    <td>
+                        <tr>
+                            <td><input type="text" name="fname" placeholder="First Name" required></td>
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <td><input type="text" name="lname" placeholder="Last Name" required></td>
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <td><input type="text" name="email" placeholder="Email" required></td>
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <td><input type="text" name="uname" placeholder="User Name" required></td>
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <td><input type="password" name="pword" placeholder="Password" required></td>
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <td><input type="password" name="confirmpword" placeholder="Confirm Password" required></td>
+                        </tr>
 
-                        <input type="submit" name="nn" value="Register Now ">
-                    </td>
+                        <br><br>
+                        <input type="radio" name="g" value="j">I accept the <b> Terms of Use </b> & <b>Privacy
+                            Policy</b> .
 
-
+                        <br><br>
+                        <td>
+                            <input type="submit" name="save" value="Register Now" style="background-color: #C5B358; width:150px; height:26px;">
+                        </td>
+                        
                 </div>
             </form>
         </center>
