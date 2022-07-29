@@ -1,0 +1,34 @@
+.reg{
+    font-weight: bolder;
+    font-size: 25px;
+    color: white ;
+    background-color: black;
+    padding-right: 190px;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to bottom right,black,#C5B358);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.frm
+{
+    font-size: 18px;
+}
+#frame
+{
+    background-color: rgb(228, 225, 225);
+    width: 500px;
+    height: 600px;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}

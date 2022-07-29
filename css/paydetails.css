@@ -1,0 +1,21 @@
+div{
+    border: 3px solid black;
+    height: 200px;
+    width: 800px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* body{
+    background-image: linear-gradient(to right, #C5B358,#000000);
+} */
+
+/* details{
+    background-color: rgba(0, 0, 0, 0.7)
+} */
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}

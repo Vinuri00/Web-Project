@@ -6,7 +6,6 @@
     <title> Payment Form </title>
     <link rel="stylesheet" href="css/payment.css">
 
-    <!-- internal css for Pay Now button  -->
     <style>
         .paybut {
             background-color: #04fd2581;
@@ -29,26 +28,25 @@
             /* border: 2px solid #04fd2581; */
         }
 
-        .paybut1:hover {
-            background-color: #C5B358;
-            color: black;
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            position: 600px;
+        }
+
+        .adminbut:hover .btn {
+            background-color: green;
         }
     </style>
 
+
     <script language="JavaScript" type="text/javascript">
         function validatetext() {
-            // if(document.getElementById("nameoncard").value == 0)
-            // {
-            //     window.alert("Please enter the card holders name.");
-            // }
-            // if(document.getElementById("cvv").value.length < 4)
-            // {
-            //     window.alert("Please enter your CVV");
-            // }
-            // if(document.getElementById("cardnumber").value < 17)
-            // {
-            //     window.alert("Please enter your Card Number");
-            // }
 
             let a = document.forms["payment"]["nameoncard"].value;
             let b = document.forms["payment"]["cvv"].value;
@@ -108,9 +106,15 @@
 <body>
 
     <!-- <img src="Card2.jpg" alt="payment" width="1000" height="1000"> -->
+    <!-- <form name="payment" method="post" action="payprocess.php"> -->
+    <form name="payment" method="post" action="paydetails.php">
 
-    <!-- <form name="payment" method="post" action="payment.php" onsubmit="return validatetext()"> -->
-    <form name="payment" method="post" action="payprocess.php">
+    <div class="adminbut">
+        <input type="button" class="btn" value="Admin"  onclick="window.location.href = 'http://localhost/WEB/admin_login.php';">
+    </div>
+
+        <!-- <input type="button"name="sadmin" value="Admin" style="background-color: green; width: 200px;height: 50px;"> -->
+
         <div class="container">
 
 
@@ -160,44 +164,6 @@
                     </div>
                 </div>
 
-                <!-- <div class="selection1"> -->
-
-                <!-- <div class="date">
-                        <select name="month" id="months" class="required">
-                            <option value = "0" >month</option>
-                            <option value = "1" >January</option>
-                            <option value = "2" >February</option>
-                            <option value = "3" >March</option>
-                            <option value = "4" >April</option>
-                            <option value = "5" >May</option>
-                            <option value = "6" >June</option>
-                            <option value = "7" >July</option>
-                            <option value = "8" >August</option>
-                            <option value = "9" >September</option>
-                            <option value = "10" >Octomber</option>
-                            <option value = "11" >Novenber</option>
-                            <option value = "12" >December</option>
-                        </select>
-                    </div>
-                &nbsp; &nbsp;
-                    <div class="selection2">
-                        
-                        <select name="years" id="years">
-                            <option value = "0" >year</option>
-                            <option value = "1" > 2022 </option>
-                            <option value = "2" > 2022 </option>
-                            <option value = "3" > 2023 </option>
-                            <option value = "4" > 2024 </option>
-                            <option value = "5" > 2025</option>
-                            <option value = "6" > 2026 </option>
-                            <option value = "7" > 2027 </option>
-                            <option value = "8" > 2028 </option>
-                            <option value = "9" > 2029 </option>
-                            <option value = "10" > 2030 </option>
-                        </select>
-                    
-                    </div> -->
-
                 <!-- Card Image -->
                 <div style="padding-left: 200px;">
                     <img src="paypal.jpg" alt="" class="cards">
@@ -216,6 +182,7 @@
             <!-- <a onclick="validatetext()" href=""> <b>Pay Now</b> </a> -->
         </div>
     </form>
+    <!-- <input type="button"name="sadmin" value="Admin" style="background-color: green; width: 200px;height: 50px;"> -->
 
 </body>
 

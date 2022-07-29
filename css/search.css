@@ -1,0 +1,22 @@
+.table-dark
+{
+    background: black;
+    color: white;
+}
+
+body
+{
+    background-image: linear-gradient(to right, black,#C5B358);
+    width: auto;
+    height: auto;
+}
+
+.font
+{
+    color: white;
+}
+
+h1
+{
+    color: white;
+}

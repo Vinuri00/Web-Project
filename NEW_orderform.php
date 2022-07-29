@@ -3,34 +3,35 @@
     <title>
         Register Form
     </title>
-    <link rel="stylesheet" href="NEW_orderform.css">
+    <link rel="stylesheet" href="css/NEW_orderform.css">
 </head>
 <body>
 
 <div class="fram">
-        <form>
+        <!-- <form> -->
     <div id="frame">
 
 <h1 class="ord">
     Order Now
 </h1>
-<form name="regform" method="POST" action="regprocess.php">
+<form name="orderform" method="post" action="orderprocess.php">
 <table width="400" height="400">
 
     <tr>
         <td><div class="form">Name </div></td>
-        <td><input type="text"name="n" style="width: 250px;"></td>
+        <td><input type="text"name="uname" style="width: 250px;"></td>
     </tr>
         
     <tr>
         <td><div class="form">Contact Number </div></td>
-        <td><input type="text"name="n" style="width: 250px;"></td>
+        <td><input type="text"name="contactnum" style="width: 250px;"></td>
     </tr>
     
     <tr>
         <td><div class="form">Province </div></td>
         <td>
-            <select name="province" style="width: 250px;">
+            <input type="text"name="province" style="width: 250px;">
+            <!-- <select name="province" style="width: 250px;">
                 <option value="0">Select the Province</option>
                 <option value="1">Western Province</option>
                 <option value="2">Central Province</option>
@@ -41,14 +42,15 @@
                 <option value="7">North Central Province</option>
                 <option value="8">Nothern Province</option>
                 <option value="9">Eastern Province</option>
-            </select>
+            </select> -->
         </td>
     </tr>
     
         <tr>
             <td><div class="form">Distric </div></td>
             <td>
-                <select name="District" style="width: 250px;">
+                <input type="text"name="distric" style="width: 250px;">
+                <!-- <select name="district" style="width: 250px;">
                     <option value="0">Select the District</option>
                     <option value="1">Jaffna</option>
                     <option value="2">Kilinochchi</option>
@@ -75,46 +77,44 @@
                     <option value="23">Hambantota</option>
                     <option value="24">Matara</option>
                     <option value="25">Galle</option>
-                </select>
+                </select> -->
             </td>
         </tr>
         
     <tr>
         <td><div class="form">Address </div></td>
-        <td><input type="text"name="s" style="width: 250px;"></td>
+        <td><input type="text"name="uaddress" style="width: 250px;"></td>
     </tr>
     
     <tr>
         <td><div class="form">Gift Name </div></td>
-        <td><input type="text"name="s" style="width: 250px;"></td>
+        <td><input type="text"name="giftname" style="width: 250px;"></td>
     </tr>
 
     <tr>
         <td><div class="form">Email Address </address> </div></td>
-        <td><input type="text"name="s" style="width: 250px;"></td>
+        <td><input type="text"name="email" style="width: 250px;"></td>
     </tr>
 
     <tr>
         <td><div class="form">Purpose </div></td>
         <td>
-            <select name="Purpose" style="width: 250px;">
+            <input type="text"name="purpose" style="width: 250px;">
+            <!-- <select name="purpose" style="width: 250px;">
                 <option value="0">Select the Purpose</option>
                 <option value="1">Birthday</option>
                 <option value="2">Valentine</option>
                 <option value="3">Anniversary</option>
                 <option value="4">Other</option>
-            </select>
+            </select> -->
         </td>
     </tr>
     
-
 </table>
 
         <br><br>
-            <input type="submit"name="nn"value="Order Now "style="background-color: #C5B358; width: 150px;height: 30px;">
+            <input type="submit"name="save"value="Order Now "style="background-color: #C5B358; width: 150px;height: 30px;">
         
-
-
     </div>
 </form>
 </div>

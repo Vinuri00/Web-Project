@@ -1,0 +1,42 @@
+.ord{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(7, 0, 0) ;
+    padding-right: 275px;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to bottom right,black,#C5B358);
+    background: url("../order.png");
+    width: 500px;
+    height: 760px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 55%;
+    background-position: left;
+
+}
+
+.form
+{
+    font-size: 17px;
+}
+
+#frame
+{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.fram
+{
+    padding-top: 50px;
+    padding-left: 188%; 
+}

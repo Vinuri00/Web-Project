@@ -1,0 +1,29 @@
+body
+{
+margin: auto;
+background-image:url("../adminbg.jpg");
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+.cont
+{
+width: 500px;
+height: 450px;
+margin: 0 auto;
+background-color:rgb(44, 62, 80,0.7);
+border-radius: 4px;
+margin: 0 auto;
+margin-top: 160px;
+}
+
+.cont img
+{
+width: 150px;
+height: 150px;
+margin-top:-60px;
+margin-right: 30px;
+}
+
+
+

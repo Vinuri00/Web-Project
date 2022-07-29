@@ -1,0 +1,34 @@
+/* .reg{
+    font-weight: bolder;
+    color: lightslategray;
+} */
+
+body
+{
+    /* background-image: url("img/reg_bg.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-color:#000000;
+    margin-top: 40px;
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+} */
+
+#frame
+{
+    width: 500px;
+    height: 500px;
+    /* background-color: #C5B358; */
+    background-color:#c5b45f;
+    padding-top: 30px;
+    padding-left: 40px;
+
+}
